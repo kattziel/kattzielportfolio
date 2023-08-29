@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile menu */}
-      {/* <ul className="hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-column justify-center items-center"> */}
+
       <ul
         className={
           !nav
@@ -56,30 +56,24 @@ const Navbar = () => {
         <ul>
           <SocialIcon
             text={"Linkedin"}
-            icon={<FaFacebook size={30} color={"#1E88E5"} />}
+            color="blue-600"
+            icon={<FaFacebook size={30} />}
           />
           <SocialIcon
             text={"Github"}
-            icon={<FaGithub size={30} color={"#333333"} />}
+            // color="gray-600"
+            icon={<FaGithub size={30} />}
           />
           <SocialIcon
             text={"Email"}
-            icon={<HiOutlineMail size={30} color={"#6fc2b0"} />}
+            color="cyan-500"
+            icon={<HiOutlineMail size={30} />}
           />
           <SocialIcon
             text={"Resume"}
-            icon={<BsFillPersonLinesFill size={30} color={"#565f65"} />}
+            // color="pink-700"
+            icon={<BsFillPersonLinesFill size={30} />}
           />
-
-          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[100px] hover:ml-[-10px] duration-300 bg-[#565f65]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Resume
-              <BsFillPersonLinesFill size={30} />
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>
