@@ -37,8 +37,8 @@ const About = () => {
             </p>
             <p className="my-2">
               If you are looking for an ambitious, hard-working, creative and
-              communicative team member, feel free to contact me 📨📥 We should
-              give this a try 🚀
+              communicative team member, feel free to contact me 📨 📥 We should
+              give it a try 🚀
             </p>
           </div>
         </div>
