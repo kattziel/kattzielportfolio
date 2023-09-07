@@ -1,5 +1,5 @@
 import React from "react";
-import Carsharing from "../assets/carsharing.png";
+// import Carsharing from "../assets/carsharing.png";
 import data from "../data/data";
 
 const Work = () => {
@@ -35,11 +35,11 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  <a href={item.live} target="_blank" rel="noreferrer">
+                  {/* <a href={item.live} target="_blank" rel="noreferrer">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
