@@ -47,7 +47,7 @@ const data = [
   },
   {
     id: 6,
-    name: "ToDoApp - company version",
+    name: "TaskFlow",
     image: ToDoAppImg,
     github: "https://github.com/kattziel/todoapp",
     live: "",
